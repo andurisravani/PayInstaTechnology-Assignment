@@ -1,0 +1,594 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+/* Base Styles */
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+.main-container {
+    background-size: cover;
+}
+
+.bg-container {
+    background-color: #FFF5E0;
+    background-size: cover;
+    padding: 10px;
+}
+
+.main-image {
+    width: 400px;
+    height: 400px;
+    margin-left: 140px;
+}
+
+.container {
+    background-color: orange;
+    height: 30px;
+    width: 85px;
+    background-size: cover;
+    border-radius: 15px;
+    margin-left: 20px;
+    color: white;
+    font-family: "Roboto";
+}
+
+.image {
+    height: 46px;
+    width: 100px;
+    color: #FFF5E0;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.para {
+    font-size: 12px;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+.heading {
+    font-weight: bold;
+}
+
+.span {
+    font-weight: 400;
+}
+
+.paragraph {
+    font-size: 17px;
+}
+
+.button {
+    background-color: #f27a44;
+    color: white;
+    height: 50px;
+    width: 156px;
+    border-width: 0;
+    border-radius: 40px;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.bg-card {
+    background-color: white;
+    height: 100vh;
+}
+
+.circle {
+    height: 90px;
+    width: 170px;
+}
+
+.profile {
+    height: 20px;
+    width: 60px;
+}
+
+.outer-circle {
+    width: 100px;
+    height: 100px;
+    background-color: #D2E9E9;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-width: 2px;
+}
+
+.inner-circle {
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-width: 2px;
+}
+
+.heading {
+    font-size: 24px;
+}
+
+.header {
+    margin-bottom: 0;
+}
+
+.big-card {
+    height: 350px;
+    width: 230px;
+    border-radius: 17px;
+    margin-bottom: 140px;
+    margin-top: 160px;
+}
+
+.harvard-image {
+    height: 240px;
+    width: 230px;
+}
+
+.harvard-h {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.h-p {
+    font-size: 12px;
+}
+
+.small-circle {
+    font-size: 29px;
+    background-color: #D2E9E9;
+    border-radius: 20%;
+    margin-left: 25px;
+    text-align: center;
+}
+
+.cards-section {
+    padding-left: 5%;
+    padding-top: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.cards-info {
+    display: flex;
+    flex-direction: column;
+    width: 340px;
+    justify-content: space-between;
+}
+
+.student-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 8px 10px #efefef;
+    margin-top: 25px;
+    padding: 5px;
+}
+
+.student-img {
+    height: 78px;
+    width: 78px;
+    margin-right: 15px;
+}
+
+.card-bio {
+    line-height: 1.2;
+    align-self: center;
+    padding-top: 10px;
+}
+
+.card-person-name {
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 16px;
+}
+
+.card-person-info {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.cards-content {
+    padding-top: 4%;
+}
+
+.cards-main-head {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.cards-main-sub-head {
+    font-size: 33px;
+    font-weight: 500;
+}
+
+.cards-main-sub-head-two {
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.cards-button {
+    margin-top: 25px;
+    background-color: #f27a44;
+    border: none;
+    padding: 10px;
+    border-radius: 22px;
+    color: #ffffff;
+    width: 170px;
+}
+
+.header-button {
+    margin-top: 5px;
+    background-color: #f27a44;
+    border: none;
+    padding: 4px;
+    border-radius: 22px;
+    color: #ffffff;
+    width: 80px;
+}
+
+.header-sub-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.out-circle {
+    width: 70px;
+    height: 70px;
+    background-color: #FFB7B7;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-width: 2px;
+}
+
+.inn-circle {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-width: 2px;
+}
+
+.details-card {
+    height: 500px;
+    width: 350px;
+    margin-left: 100px;
+}
+
+.book-heading {
+    margin-top: 20px;
+    font-size: 26px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.book-para {
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-weight: 500;
+}
+
+.city {
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 17px;
+    font-family: "Roboto";
+    margin-bottom: 0;
+}
+
+.input {
+    height: 42px;
+    width: 270px;
+    margin-left: 20px;
+    background-color: #EDE4FF;
+    border-width: 0;
+    border-radius: 6px;
+}
+
+.input1 {
+    height: 42px;
+    width: 120px;
+    background-color: #EDE4FF;
+    border-width: 0;
+    border-radius: 6px;
+    margin-left: 20px;
+}
+
+.test {
+    margin-top: 140px;
+    text-align: center;
+}
+
+.text-image {
+    height: 70px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.text-p {
+    font-family: "Roboto";
+    font-size: 16px;
+    padding-top: 10px;
+}
+
+.gallery {
+    font-size: 17px;
+    font-family: "Roboto";
+}
+
+.last-line {
+    font-size: 28px;
+    font-family: "Roboto";
+    margin-top: 140px;
+    font-weight: bold;
+}
+
+.last-para {
+    font-size: 12px;
+    font-family: "Roboto";
+    margin-top: 20px;
+}
+
+.p-p {
+    font-size: 14px;
+}
+
+.booknow {
+    height: 36px;
+    width: 90px;
+    color: white;
+    background-color: black;
+    font-size: 10px;
+    border-radius: 6px;
+    font-weight: bold;
+    margin: 40px;
+}
+
+/* Media Queries for Responsiveness */
+
+@media (max-width: 768px) {
+    .main-image {
+        width: 300px;
+        height: 300px;
+        margin-left: 40px;
+    }
+
+    .container {
+        width: 60px;
+        height: 20px;
+        margin-left: 10px;
+    }
+
+    .bg-card {
+        height: auto;
+    }
+
+    .big-card {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .cards-section {
+        padding-left: 0;
+        justify-content: center;
+    }
+
+    .cards-info {
+        width: 90%;
+        text-align: center;
+    }
+
+    .student-card {
+        flex-direction: column;
+        margin: 10px 0;
+    }
+
+    .student-img {
+        margin: 10px 0;
+    }
+
+    .cards-main-head {
+        font-size: 28px;
+    }
+
+    .cards-main-sub-head {
+        font-size: 26px;
+    }
+
+    .cards-main-sub-head-two {
+        font-size: 20px;
+    }
+
+    .cards-button {
+        width: 130px;
+    }
+
+    .header-sub-section {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .out-circle {
+        width: 60px;
+        height: 60px;
+    }
+
+    .inn-circle {
+        width: 30px;
+        height: 30px;
+    }
+
+    .details-card {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .book-heading {
+        margin-top: 20px;
+        font-size: 24px;
+    }
+
+    .book-para {
+        font-size: 14px;
+    }
+
+    .city,
+    .input,
+    .input1 {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .test {
+        margin-top: 80px;
+    }
+
+    .text-image {
+        height: 50px;
+        width: 80px;
+    }
+
+    .text-p {
+        font-size: 14px;
+    }
+
+    .gallery {
+        font-size: 14px;
+    }
+
+    .last-line {
+        font-size: 24px;
+        margin-top: 80px;
+    }
+
+    .last-para {
+        font-size: 10px;
+        margin-top: 10px;
+    }
+
+    .p-p {
+        font-size: 12px;
+    }
+
+    .booknow {
+        width: 80px;
+    }
+}
+
+@media (max-width: 576px) {
+    .main-image {
+        width: 200px;
+        height: 200px;
+        margin-left: 20px;
+    }
+
+    .container {
+        width: 50px;
+        height: 15px;
+        margin-left: 10px;
+    }
+
+    .cards-main-head {
+        font-size: 24px;
+    }
+
+    .cards-main-sub-head {
+        font-size: 22px;
+    }
+
+    .cards-main-sub-head-two {
+        font-size: 18px;
+    }
+
+    .cards-button {
+        width: 110px;
+    }
+
+    .out-circle {
+        width: 50px;
+        height: 50px;
+    }
+
+    .inn-circle {
+        width: 25px;
+        height: 25px;
+    }
+
+    .details-card {
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    .book-heading {
+        margin-top: 20px;
+        font-size: 22px;
+    }
+
+    .book-para {
+        font-size: 12px;
+    }
+
+    .city,
+    .input,
+    .input1 {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .test {
+        margin-top: 60px;
+    }
+
+    .text-image {
+        height: 40px;
+        width: 60px;
+    }
+
+    .text-p {
+        font-size: 12px;
+    }
+
+    .gallery {
+        font-size: 12px;
+    }
+
+    .last-line {
+        font-size: 20px;
+        margin-top: 60px;
+    }
+
+    .last-para {
+        font-size: 10px;
+        margin-top: 10px;
+    }
+
+    .p-p {
+        font-size: 10px;
+    }
+
+    .booknow {
+        width: 70px;
+    }
+}
